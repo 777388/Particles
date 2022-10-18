@@ -1009,7 +1009,7 @@ function createExportWrapper(name, fixedasm) {
 }
 
 var wasmBinaryFile;
-  wasmBinaryFile = 'particles.wasm';
+  wasmBinaryFile = 'https://raw.githubusercontent.com/777388/Particles/main/particles.wasm';
   if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
   }
